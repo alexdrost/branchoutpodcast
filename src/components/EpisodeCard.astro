@@ -1,0 +1,20 @@
+---
+import art from '../data/coverart.json';
+const { ep } = Astro.props;
+const d = ep.data;
+const cover = art[String(d.episode)];
+const year = d.publishDate.getUTCFullYear();
+---
+<article class="card">
+  <a href={`/episodes/${d.slug}/`} class="card-art" aria-label={d.title}>
+    {cover
+      ? <img src={cover} alt="" loading="lazy" width="400" height="400" />
+      : <div class="card-fallback"><span class="n">{String(d.episode).padStart(3,'0')}</span></div>}
+  </a>
+  <div class="card-body">
+    <p class="card-meta">Ep {String(d.episode).padStart(3,'0')} · {year}</p>
+    <h3><a href={`/episodes/${d.slug}/`}>{d.title}</a></h3>
+    <p class="card-meta">{d.guests.map(g=>g.name).join(', ')}</p>
+    <p class="card-hook">{d.hook}</p>
+  </div>
+</article>

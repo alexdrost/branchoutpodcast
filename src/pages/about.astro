@@ -1,0 +1,23 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import { THEMES, TENSIONS } from '../lib/site.mjs';
+const eps = await getCollection('episodes');
+const words = eps.reduce((n,e)=>n+(e.data.transcriptWords||0),0);
+---
+<Base title="About" description="About Branch Out and this archive.">
+  <div class="hero"><p class="eyebrow">About</p><h1>About this archive</h1></div>
+  <article class="ep-body prose-narrow" data-pagefind-body>
+    <h2 id="the-show">The show</h2>
+    <p>Branch Out was a podcast from <a href="https://connection.builders">Connection Builders</a>, hosted by Alex Drost. It ran from June 2020 to September 2023 across 112 episodes, interviewing professionals in accounting, law, private equity, wealth management, consulting and marketing.</p>
+    <p>The recurring subject, across three years and eight professional domains, was the unaccredited half of a professional career: how relationships are actually built, how work is actually won, how firms actually grow, and what it costs people to do all of it.</p>
+    <h2 id="this-site">This site</h2>
+    <p>This archive presents {eps.length} episodes with full transcripts — roughly {new Intl.NumberFormat('en-US').format(words)} words of conversation — with show notes rewritten from the transcripts rather than carried over.</p>
+    <p>Every episode carries three to five cross-links to other episodes, each with a stated reason. Links are typed: <strong>same theme</strong> for a different angle on the same problem, <strong>sequence</strong> where one episode is the foundation for another, and <strong>tension</strong> where two guests genuinely disagree.</p>
+    <p>The {TENSIONS.length} tensions were the point of building this. Guests recorded years apart, who never met, turn out to contradict each other on questions that matter — whether first meetings should happen in person, whether to niche or stay broad, what diversity is actually for. Nobody had ever connected them.</p>
+    <h2 id="how-to-use-it">How to use it</h2>
+    <p>Search covers show notes and full transcripts. The {THEMES.length} <a href="/themes/">theme hubs</a> are the best entry point — each says what the corpus collectively argues and where it splits. The <a href="/guests/">guest directory</a> lists everyone who appeared.</p>
+    <h2 id="credits">Credits</h2>
+    <p>Audio is hosted on Buzzsprout and embedded here; it is not re-hosted. Episode pages canonicalise to their original URLs on connection.builders.</p>
+  </article>
+</Base>

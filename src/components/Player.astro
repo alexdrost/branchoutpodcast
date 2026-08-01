@@ -1,0 +1,9 @@
+---
+const { buzzsproutId, title } = Astro.props;
+const src = `https://www.buzzsprout.com/1038232/${buzzsproutId}.js?container_id=buzzsprout-player-${buzzsproutId}&player=small`;
+---
+<div class="player">
+  <div id={`buzzsprout-player-${buzzsproutId}`}></div>
+  <script type="text/javascript" src={src} charset="utf-8" is:inline></script>
+  <noscript><a href={`https://www.buzzsprout.com/1038232/${buzzsproutId}`}>Listen to “{title}” on Buzzsprout</a></noscript>
+</div>

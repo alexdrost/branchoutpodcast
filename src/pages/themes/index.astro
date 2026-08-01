@@ -1,0 +1,31 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { THEMES, TENSIONS } from '../../lib/site.mjs';
+const eps = await getCollection('episodes');
+const count = (k) => eps.filter(e => e.data.themes.includes(k)).length;
+const sorted = [...THEMES].sort((a,b)=>count(b.key)-count(a.key));
+---
+<Base title="Themes" description="Sixteen themes derived from the full 99-episode corpus, each with a synthesis of what the archive collectively argues and where it splits.">
+  <div class="hero">
+    <p class="eyebrow">Browse</p>
+    <h1>Sixteen themes</h1>
+    <p class="lede prose-narrow">
+      These were derived from the whole corpus rather than assigned episode by episode — clustered
+      from 639 raw topics, then frozen. Each hub says what the archive collectively argues about
+      that theme, and where its guests disagree.
+    </p>
+  </div>
+  <div class="grid" style="grid-template-columns:repeat(auto-fill,minmax(min(100%,21rem),1fr))">
+    {sorted.map(t => (
+      <article class="card" style="padding:1.3rem 1.4rem 1.5rem">
+        <p class="card-meta">{count(t.key)} episodes</p>
+        <h3 style="margin:.2rem 0 .5rem"><a href={`/themes/${t.key}/`}>{t.name}</a></h3>
+        <p class="card-hook">{t.description}</p>
+      </article>
+    ))}
+  </div>
+  <p style="margin-top:3rem" class="card-meta">
+    Across these themes the archive contains <strong>{TENSIONS.length} documented disagreements</strong> between guests.
+  </p>
+</Base>

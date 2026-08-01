@@ -1,0 +1,64 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import EpisodeCard from '../components/EpisodeCard.astro';
+import { THEMES, TENSIONS, pad } from '../lib/site.mjs';
+const eps = await getCollection('episodes');
+const byNum = new Map(eps.map(e=>[e.data.episode,e]));
+const latest = [...eps].sort((a,b)=>b.data.episode-a.data.episode).slice(0,8);
+const featuredTension = TENSIONS.find(t=>t.strength==='direct') || TENSIONS[0];
+const topThemes = [...THEMES].sort((a,b)=>b.episodes.length-a.episodes.length).slice(0,8);
+---
+<Base>
+  <section class="hero">
+    <p class="eyebrow">A podcast from Connection Builders</p>
+    <h1 style="font-size:var(--step-4);max-width:20ch">Technical excellence is table stakes.</h1>
+    <p class="lede prose-narrow">
+      Branch Out ran for 112 episodes between 2020 and 2023, asking middle-market professionals
+      about the half of a career nobody accredits — how work actually gets won, how firms actually
+      grow, and how people actually last.
+    </p>
+    <div class="stat-row">
+      <span class="stat"><b>{eps.length}</b><span>episodes with transcripts</span></span>
+      <span class="stat"><b>{THEMES.length}</b><span>themes</span></span>
+      <span class="stat"><b>{TENSIONS.length}</b><span>documented disagreements</span></span>
+    </div>
+    <p style="margin-top:2rem">
+      <a class="tag" href="/episodes/" style="padding:.55rem 1.1rem;background:var(--brand-ink);color:#fff;border-color:var(--brand-ink)">Browse the archive</a>
+      <a class="tag" href="/themes/" style="padding:.55rem 1.1rem">Start with a theme</a>
+    </p>
+  </section>
+
+  {featuredTension && (
+    <section style="margin:1rem 0 4rem;border:1px solid var(--rule);border-radius:12px;background:var(--paper);padding:clamp(1.3rem,1rem+2vw,2.5rem)">
+      <span class="badge badge-tension">Where guests disagree</span>
+      <h2 style="margin:.8rem 0 .6rem;max-width:32ch">{featuredTension.question}</h2>
+      <p class="prose-narrow" style="color:var(--ink-2)">{featuredTension.why_it_matters}</p>
+      <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(min(100%,18rem),1fr));margin-top:1.2rem">
+        {featuredTension.sides.map(side => (
+          <div style="border-left:3px solid var(--brand-warm);padding-left:1rem">
+            <p style="font-weight:600;margin-bottom:.3rem">{side.guests.join(' · ')}</p>
+            <p class="card-hook">{side.position}</p>
+            <p class="card-meta" style="margin-top:.4rem">
+              {side.episodes.map((n,i)=>{const e=byNum.get(n); return (<>{i>0&&' · '}{e?<a href={`/episodes/${e.data.slug}/`}>Ep {pad(n)}</a>:`Ep ${pad(n)}`}</>);})}
+            </p>
+          </div>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <section style="margin-bottom:4rem">
+    <h2>Themes</h2>
+    <p style="display:flex;flex-wrap:wrap;gap:.45rem">
+      {topThemes.map(t=><a class="tag" href={`/themes/${t.key}/`}>{t.name} <span style="opacity:.6">{t.episodes.length}</span></a>)}
+      <a class="tag" href="/themes/">All {THEMES.length} →</a>
+    </p>
+  </section>
+
+  <section>
+    <h2>Most recent</h2>
+    <div class="grid">{latest.map(ep=><EpisodeCard ep={ep} />)}</div>
+    <p style="margin-top:1.5rem"><a href="/episodes/">All {eps.length} episodes →</a></p>
+  </section>
+</Base>

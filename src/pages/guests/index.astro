@@ -1,0 +1,30 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { buildGuests, pad } from '../../lib/site.mjs';
+const eps = await getCollection('episodes');
+const guests = buildGuests(eps);
+const letters = [...new Set(guests.map(g=>g.name.split(' ').at(-1)[0].toUpperCase()))].sort();
+---
+<Base title="Guests" description={`All ${guests.length} guests who appeared on Branch Out.`}>
+  <div class="hero">
+    <p class="eyebrow">Directory</p>
+    <h1>{guests.length} guests</h1>
+    <p class="lede prose-narrow">Everyone who came on the show, listed by surname.</p>
+  </div>
+  <p style="margin-bottom:2rem">{letters.map(l=><a class="tag" href={`#L${l}`} style="margin:0 .25rem .35rem 0">{l}</a>)}</p>
+  {letters.map(l => (
+    <section style="margin-bottom:2.5rem">
+      <h2 id={`L${l}`} style="border-top:1px solid var(--rule);padding-top:1rem">{l}</h2>
+      <ul class="related-list">
+        {guests.filter(g=>g.name.split(' ').at(-1)[0].toUpperCase()===l).map(g => (
+          <li>
+            <a class="r-title" href={`/guests/${g.slug}/`}>{g.name}</a>
+            {(g.title || g.firm) && <p class="r-reason">{[g.title,g.firm].filter(Boolean).join(' · ')}</p>}
+            <p class="r-reason">{g.episodes.map(e=>`Ep ${pad(e.data.episode)}`).join(', ')}</p>
+          </li>
+        ))}
+      </ul>
+    </section>
+  ))}
+</Base>

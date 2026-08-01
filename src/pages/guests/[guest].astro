@@ -1,0 +1,25 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import EpisodeCard from '../../components/EpisodeCard.astro';
+import { buildGuests } from '../../lib/site.mjs';
+export async function getStaticPaths() {
+  const eps = await getCollection('episodes');
+  return buildGuests(eps).map(g => ({ params:{ guest:g.slug }, props:{ g } }));
+}
+const { g } = Astro.props;
+const jsonld = { '@context':'https://schema.org','@type':'Person', name:g.name,
+  ...(g.firm?{worksFor:{'@type':'Organization',name:g.firm}}:{}),
+  ...(g.linkedin?{sameAs:g.linkedin}:{}) };
+---
+<Base title={g.name} description={`${g.name}${g.firm?` of ${g.firm}`:''} on Branch Out — ${g.episodes.length} episode${g.episodes.length>1?'s':''}.`}>
+  <script type="application/ld+json" slot="head" set:html={JSON.stringify(jsonld)} />
+  <div class="hero">
+    <p class="eyebrow">Guest</p>
+    <h1>{g.name}</h1>
+    {(g.title || g.firm) && <p class="lede">{[g.title,g.firm].filter(Boolean).join(' · ')}</p>}
+    {g.linkedin && <p><a href={g.linkedin} rel="noopener">LinkedIn</a></p>}
+  </div>
+  <div class="grid">{g.episodes.map(ep => <EpisodeCard ep={ep} />)}</div>
+  <p style="margin-top:2.5rem" class="card-meta"><a href="/guests/">← All guests</a></p>
+</Base>

@@ -1,0 +1,830 @@
+{
+ "themes": [
+  {
+   "key": "business-development",
+   "name": "Business Development as Craft",
+   "description": "BD reframed as service, problem-solving and follow-through rather than selling \u2014 who owns it, how it's learned, whether it can be systematized.",
+   "episodes": [
+    2,
+    3,
+    4,
+    12,
+    15,
+    22,
+    24,
+    30,
+    32,
+    33,
+    34,
+    38,
+    44,
+    51,
+    53,
+    58,
+    59,
+    60,
+    63,
+    71,
+    76,
+    81,
+    88,
+    93,
+    97,
+    100,
+    101,
+    105,
+    106,
+    109
+   ]
+  },
+  {
+   "key": "deal-sourcing",
+   "name": "Deal Sourcing & Origination",
+   "description": "The specific mechanics of finding and winning deals in private equity, banking and M&A advisory.",
+   "episodes": [
+    3,
+    13,
+    25,
+    33,
+    58,
+    98
+   ]
+  },
+  {
+   "key": "networking",
+   "name": "Networking & Relationship Capital",
+   "description": "Building, maintaining and drawing on a professional network \u2014 including what networking is actually for.",
+   "episodes": [
+    1,
+    2,
+    3,
+    4,
+    22,
+    25,
+    32,
+    35,
+    36,
+    40,
+    41,
+    42,
+    51,
+    52,
+    53,
+    56,
+    57,
+    58,
+    60,
+    70,
+    76,
+    90,
+    107
+   ]
+  },
+  {
+   "key": "personal-brand",
+   "name": "Personal Brand & Thought Leadership",
+   "description": "How professionals become known \u2014 content, LinkedIn, speaking, publishing, and the gap between stated identity and audience perception.",
+   "episodes": [
+    18,
+    31,
+    32,
+    37,
+    38,
+    51,
+    56,
+    74,
+    75,
+    79,
+    88,
+    105,
+    107,
+    108
+   ]
+  },
+  {
+   "key": "authenticity",
+   "name": "Authenticity & Self-Knowledge",
+   "description": "The collision between a borrowed professional persona and an actual self \u2014 values audits, vulnerability, code-switching, ego.",
+   "episodes": [
+    19,
+    27,
+    35,
+    37,
+    39,
+    40,
+    50,
+    65,
+    74,
+    84,
+    95,
+    99
+   ]
+  },
+  {
+   "key": "mental-health",
+   "name": "Mental Health & Burnout",
+   "description": "Burnout, stress, mental illness and recovery inside professional services \u2014 and whether the fix is leaving or reshaping the role.",
+   "episodes": [
+    1,
+    16,
+    37,
+    43,
+    73,
+    94,
+    100
+   ]
+  },
+  {
+   "key": "personal-systems",
+   "name": "Habits & Personal Systems",
+   "description": "Morning routines, journaling, calendar discipline, deep work, energy management \u2014 the machinery of self-management.",
+   "episodes": [
+    2,
+    12,
+    20,
+    26,
+    29,
+    36,
+    45,
+    46,
+    48,
+    73,
+    80,
+    85,
+    93,
+    95,
+    96
+   ]
+  },
+  {
+   "key": "leadership",
+   "name": "Leadership & Management",
+   "description": "The difference between managing work and leading people \u2014 delegation, feedback, crisis leadership, servant leadership.",
+   "episodes": [
+    4,
+    7,
+    12,
+    24,
+    42,
+    43,
+    44,
+    47,
+    49,
+    69,
+    70,
+    77,
+    79,
+    89,
+    94,
+    95,
+    101,
+    107,
+    111
+   ]
+  },
+  {
+   "key": "talent",
+   "name": "Talent, Hiring & Retention",
+   "description": "Attracting, developing and keeping people \u2014 hiring philosophy, apprenticeship, generational conflict, retention.",
+   "episodes": [
+    7,
+    28,
+    30,
+    35,
+    39,
+    41,
+    47,
+    52,
+    54,
+    55,
+    57,
+    61,
+    63,
+    64,
+    65,
+    69,
+    77,
+    80,
+    85,
+    86,
+    87,
+    89,
+    92,
+    93,
+    94,
+    98,
+    102,
+    104,
+    106,
+    109,
+    110,
+    111
+   ]
+  },
+  {
+   "key": "diversity-access",
+   "name": "Diversity, Inclusion & Access",
+   "description": "Who gets into the profession and who advances \u2014 access to networks, hiring decisions, and what diversity is actually for.",
+   "episodes": [
+    10,
+    13,
+    33,
+    39,
+    40,
+    41,
+    42,
+    50,
+    52,
+    55,
+    57,
+    61,
+    63,
+    64,
+    65,
+    69,
+    70,
+    73,
+    74,
+    81,
+    87,
+    90,
+    105
+   ]
+  },
+  {
+   "key": "firm-strategy",
+   "name": "Firm Strategy & Economics",
+   "description": "How professional firms grow, specialize, consolidate and organize \u2014 capacity, niching, partnership structure, M&A of firms.",
+   "episodes": [
+    15,
+    47,
+    59,
+    78,
+    82,
+    83,
+    87,
+    88,
+    91,
+    92,
+    100,
+    102,
+    103,
+    104,
+    109,
+    110,
+    112
+   ]
+  },
+  {
+   "key": "pricing",
+   "name": "Pricing & Business Models",
+   "description": "The billable hour, value pricing, subscription models, recurring revenue and what a firm actually sells.",
+   "episodes": [
+    7,
+    16,
+    23,
+    25,
+    27,
+    30,
+    34,
+    44,
+    45,
+    48,
+    54,
+    84,
+    85,
+    86,
+    92,
+    101,
+    102,
+    104,
+    112
+   ]
+  },
+  {
+   "key": "ma-and-exits",
+   "name": "M&A, Exits & Transitions",
+   "description": "Buying, selling and integrating businesses \u2014 including the emotional reality of an owner's exit.",
+   "episodes": [
+    1,
+    45,
+    82,
+    83,
+    90,
+    97,
+    103
+   ]
+  },
+  {
+   "key": "career-transitions",
+   "name": "Career Transitions & Risk",
+   "description": "Changing lanes \u2014 leaving a stable job, going independent, second careers, and how professionals price risk.",
+   "episodes": [
+    60,
+    77,
+    78,
+    83,
+    96,
+    99
+   ]
+  },
+  {
+   "key": "growth-mindset",
+   "name": "Learning & Growth Mindset",
+   "description": "Treating work as a classroom \u2014 experimentation, learning from failure, curiosity, coaching and deliberate practice.",
+   "episodes": [
+    20,
+    24,
+    26,
+    27,
+    28,
+    29,
+    38,
+    49,
+    55,
+    71,
+    79,
+    80,
+    89,
+    91,
+    97,
+    99
+   ]
+  },
+  {
+   "key": "client-experience",
+   "name": "Client Experience & Trust",
+   "description": "What clients actually buy \u2014 responsiveness, expectation-setting, trust, and systematic client feedback.",
+   "episodes": [
+    13,
+    23,
+    31,
+    34,
+    53,
+    54,
+    78,
+    81,
+    86,
+    98,
+    112
+   ]
+  }
+ ],
+ "episode_themes": {
+  "1": [
+   "networking",
+   "ma-and-exits",
+   "mental-health"
+  ],
+  "2": [
+   "networking",
+   "business-development",
+   "personal-systems"
+  ],
+  "3": [
+   "deal-sourcing",
+   "business-development",
+   "networking"
+  ],
+  "4": [
+   "networking",
+   "business-development",
+   "leadership"
+  ],
+  "7": [
+   "leadership",
+   "talent",
+   "pricing"
+  ],
+  "10": [
+   "diversity-access"
+  ],
+  "12": [
+   "business-development",
+   "leadership",
+   "personal-systems"
+  ],
+  "13": [
+   "deal-sourcing",
+   "diversity-access",
+   "client-experience"
+  ],
+  "15": [
+   "firm-strategy",
+   "business-development"
+  ],
+  "16": [
+   "mental-health",
+   "pricing"
+  ],
+  "18": [
+   "personal-brand"
+  ],
+  "19": [
+   "authenticity"
+  ],
+  "20": [
+   "personal-systems",
+   "growth-mindset"
+  ],
+  "22": [
+   "networking",
+   "business-development"
+  ],
+  "23": [
+   "pricing",
+   "client-experience"
+  ],
+  "24": [
+   "leadership",
+   "business-development",
+   "growth-mindset"
+  ],
+  "25": [
+   "deal-sourcing",
+   "pricing",
+   "networking"
+  ],
+  "26": [
+   "growth-mindset",
+   "personal-systems"
+  ],
+  "27": [
+   "pricing",
+   "growth-mindset",
+   "authenticity"
+  ],
+  "28": [
+   "growth-mindset",
+   "talent"
+  ],
+  "29": [
+   "personal-systems",
+   "growth-mindset"
+  ],
+  "30": [
+   "business-development",
+   "pricing",
+   "talent"
+  ],
+  "31": [
+   "personal-brand",
+   "client-experience"
+  ],
+  "32": [
+   "business-development",
+   "personal-brand",
+   "networking"
+  ],
+  "33": [
+   "diversity-access",
+   "deal-sourcing",
+   "business-development"
+  ],
+  "34": [
+   "business-development",
+   "client-experience",
+   "pricing"
+  ],
+  "35": [
+   "authenticity",
+   "networking",
+   "talent"
+  ],
+  "36": [
+   "personal-systems",
+   "networking"
+  ],
+  "37": [
+   "authenticity",
+   "mental-health",
+   "personal-brand"
+  ],
+  "38": [
+   "business-development",
+   "personal-brand",
+   "growth-mindset"
+  ],
+  "39": [
+   "talent",
+   "authenticity",
+   "diversity-access"
+  ],
+  "40": [
+   "diversity-access",
+   "authenticity",
+   "networking"
+  ],
+  "41": [
+   "talent",
+   "diversity-access",
+   "networking"
+  ],
+  "42": [
+   "diversity-access",
+   "leadership",
+   "networking"
+  ],
+  "43": [
+   "leadership",
+   "mental-health"
+  ],
+  "44": [
+   "business-development",
+   "leadership",
+   "pricing"
+  ],
+  "45": [
+   "ma-and-exits",
+   "personal-systems",
+   "pricing"
+  ],
+  "46": [
+   "personal-systems"
+  ],
+  "47": [
+   "leadership",
+   "talent",
+   "firm-strategy"
+  ],
+  "48": [
+   "personal-systems",
+   "pricing"
+  ],
+  "49": [
+   "leadership",
+   "growth-mindset"
+  ],
+  "50": [
+   "diversity-access",
+   "authenticity"
+  ],
+  "51": [
+   "business-development",
+   "networking",
+   "personal-brand"
+  ],
+  "52": [
+   "diversity-access",
+   "talent",
+   "networking"
+  ],
+  "53": [
+   "networking",
+   "client-experience",
+   "business-development"
+  ],
+  "54": [
+   "client-experience",
+   "talent",
+   "pricing"
+  ],
+  "55": [
+   "growth-mindset",
+   "diversity-access",
+   "talent"
+  ],
+  "56": [
+   "personal-brand",
+   "networking"
+  ],
+  "57": [
+   "networking",
+   "talent",
+   "diversity-access"
+  ],
+  "58": [
+   "business-development",
+   "deal-sourcing",
+   "networking"
+  ],
+  "59": [
+   "business-development",
+   "firm-strategy"
+  ],
+  "60": [
+   "career-transitions",
+   "business-development",
+   "networking"
+  ],
+  "61": [
+   "diversity-access",
+   "talent"
+  ],
+  "63": [
+   "talent",
+   "diversity-access",
+   "business-development"
+  ],
+  "64": [
+   "diversity-access",
+   "talent"
+  ],
+  "65": [
+   "diversity-access",
+   "talent",
+   "authenticity"
+  ],
+  "69": [
+   "talent",
+   "diversity-access",
+   "leadership"
+  ],
+  "70": [
+   "diversity-access",
+   "networking",
+   "leadership"
+  ],
+  "71": [
+   "growth-mindset",
+   "business-development"
+  ],
+  "73": [
+   "personal-systems",
+   "mental-health",
+   "diversity-access"
+  ],
+  "74": [
+   "personal-brand",
+   "authenticity",
+   "diversity-access"
+  ],
+  "75": [
+   "personal-brand"
+  ],
+  "76": [
+   "networking",
+   "business-development"
+  ],
+  "77": [
+   "career-transitions",
+   "talent",
+   "leadership"
+  ],
+  "78": [
+   "client-experience",
+   "firm-strategy",
+   "career-transitions"
+  ],
+  "79": [
+   "leadership",
+   "personal-brand",
+   "growth-mindset"
+  ],
+  "80": [
+   "personal-systems",
+   "growth-mindset",
+   "talent"
+  ],
+  "81": [
+   "client-experience",
+   "diversity-access",
+   "business-development"
+  ],
+  "82": [
+   "ma-and-exits",
+   "firm-strategy"
+  ],
+  "83": [
+   "ma-and-exits",
+   "firm-strategy",
+   "career-transitions"
+  ],
+  "84": [
+   "pricing",
+   "authenticity"
+  ],
+  "85": [
+   "talent",
+   "pricing",
+   "personal-systems"
+  ],
+  "86": [
+   "talent",
+   "pricing",
+   "client-experience"
+  ],
+  "87": [
+   "firm-strategy",
+   "talent",
+   "diversity-access"
+  ],
+  "88": [
+   "personal-brand",
+   "firm-strategy",
+   "business-development"
+  ],
+  "89": [
+   "leadership",
+   "growth-mindset",
+   "talent"
+  ],
+  "90": [
+   "networking",
+   "ma-and-exits",
+   "diversity-access"
+  ],
+  "91": [
+   "growth-mindset",
+   "firm-strategy"
+  ],
+  "92": [
+   "pricing",
+   "firm-strategy",
+   "talent"
+  ],
+  "93": [
+   "talent",
+   "personal-systems",
+   "business-development"
+  ],
+  "94": [
+   "talent",
+   "mental-health",
+   "leadership"
+  ],
+  "95": [
+   "leadership",
+   "personal-systems",
+   "authenticity"
+  ],
+  "96": [
+   "career-transitions",
+   "personal-systems"
+  ],
+  "97": [
+   "business-development",
+   "ma-and-exits",
+   "growth-mindset"
+  ],
+  "98": [
+   "talent",
+   "deal-sourcing",
+   "client-experience"
+  ],
+  "99": [
+   "growth-mindset",
+   "career-transitions",
+   "authenticity"
+  ],
+  "100": [
+   "mental-health",
+   "business-development",
+   "firm-strategy"
+  ],
+  "101": [
+   "business-development",
+   "pricing",
+   "leadership"
+  ],
+  "102": [
+   "pricing",
+   "firm-strategy",
+   "talent"
+  ],
+  "103": [
+   "ma-and-exits",
+   "firm-strategy"
+  ],
+  "104": [
+   "firm-strategy",
+   "pricing",
+   "talent"
+  ],
+  "105": [
+   "personal-brand",
+   "business-development",
+   "diversity-access"
+  ],
+  "106": [
+   "business-development",
+   "talent"
+  ],
+  "107": [
+   "personal-brand",
+   "leadership",
+   "networking"
+  ],
+  "108": [
+   "personal-brand"
+  ],
+  "109": [
+   "talent",
+   "firm-strategy",
+   "business-development"
+  ],
+  "110": [
+   "firm-strategy",
+   "talent"
+  ],
+  "111": [
+   "leadership",
+   "talent"
+  ],
+  "112": [
+   "client-experience",
+   "pricing",
+   "firm-strategy"
+  ]
+ }
+}

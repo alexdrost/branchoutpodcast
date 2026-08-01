@@ -1,0 +1,51 @@
+---
+import '../styles/global.css';
+const { title, description, canonical, ogImage, wide = false } = Astro.props;
+const full = title ? `${title} — Branch Out` : 'Branch Out — Insights from leading middle-market professionals';
+const desc = description || 'A 112-episode archive of conversations with middle-market professionals on growth, business development, leadership and the unaccredited half of a professional career.';
+const nav = [['/episodes/','Episodes'],['/themes/','Themes'],['/guests/','Guests'],['/search/','Search'],['/about/','About']];
+const path = Astro.url.pathname;
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{full}</title>
+  <meta name="description" content={desc} />
+  {canonical && <link rel="canonical" href={canonical} />}
+  <meta property="og:title" content={full} />
+  <meta property="og:description" content={desc} />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Branch Out" />
+  {ogImage && <meta property="og:image" content={ogImage} />}
+  <meta name="twitter:card" content={ogImage ? 'summary_large_image' : 'summary'} />
+  <link rel="alternate" type="application/rss+xml" title="Branch Out" href="/rss.xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" />
+  <slot name="head" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-head">
+    <div class="wrap">
+      <a class="brand" href="/">Branch&nbsp;Out</a>
+      <nav class="nav" aria-label="Primary">
+        {nav.map(([href,label]) => (
+          <a href={href} aria-current={path.startsWith(href) ? 'page' : undefined}>{label}</a>
+        ))}
+      </nav>
+    </div>
+  </header>
+  <main id="main" class={wide ? 'wrap' : 'wrap'}>
+    <slot />
+  </main>
+  <footer class="site-foot">
+    <div class="wrap">
+      <p><strong>Branch Out</strong> — a podcast from <a href="https://connection.builders">Connection Builders</a>, hosted by Alex Drost. 112 episodes, 2020–2023.</p>
+      <p>Episode audio hosted on Buzzsprout. <a href="/rss.xml">RSS</a> · <a href="/about/">About</a></p>
+    </div>
+  </footer>
+</body>
+</html>

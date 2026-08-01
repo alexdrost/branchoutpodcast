@@ -1,0 +1,510 @@
+{
+ "business-development": {
+  "key": "business-development",
+  "summary": "Thirty guests recast business development as service and problem-solving rather than selling, and Gary Braun argues that refusing the word is exactly what leaves the craft untaught.",
+  "html": "<p>Business development in professional services is not sales. It is problem-solving and follow-through, and the deal is a byproduct. Lenny Dacanay (Ep 012) disowns his own earlier sales framing and calls the business developer a problem solver. Dan Lee (Ep 038) blames a decade of poor results on having thought of himself as a salesman. Adam Klein (Ep 053) calls sales a four-letter word and tells people to say <em>help</em> instead.</p><p>Gary Braun (Ep 097) turns that consensus over. He will run the search-and-replace to keep a CPA firm comfortable, but he argues the refusal is what breaks the work: diagnose a problem a client cannot fix, propose a fix, and you are selling, so disowning it only keeps the discipline uninstalled. Across roughly 400 client companies the same failure repeats: two or three surface questions, then a dump of everything you know.</p><p>The frame moves over four years. In 2020 it sits inside individual character: Tom Boniface (Ep 002) on the variables you control, Grant Marcks (Ep 003) on relationship equity. By 2021 the argument is definitional. Polly Mack and Heather Madland (Ep 032) call it a career, not a role, and refuse deal counts as a metric; Stephen Madsen (Ep 058) audits his funnel and finds city visits converting about ten times better than calls. By 2023 the unit of analysis is the firm, and Timothy Keith (Ep 106) puts 60 to 70 percent of revenue with 5 percent of the people.</p><p>Nobody defends the pitch. Jim Ries (Ep 051) never sells at first contact, Emily Ackerman (Ep 059) refuses to cold call, Ken Marblestone (Ep 060) will not mention a referral. Nobody defends the extrovert: Mark Bober (Ep 030), Ryan Grand (Ep 033) and Alex Egan (Ep 101) all name introverts as their strongest producers. Both agreements go untested, which is the gap. Copy the guests who kept score: Madsen's funnel, Doug LaLone's monthly scorecard (Ep 044).</p>",
+  "splits": [
+   {
+    "question": "Is business development in a professional services firm actually sales, to be named and trained as such, or is calling it sales the thing that breaks it?",
+    "gist": "Gary Braun (Ep 097) and Robert Meyers (Ep 034) want a documented sales process with conversion ratios; Adam Klein, Dan Montgomery and Paul Aversano want the word gone because professionals who think of themselves as sellers freeze, and a firm leader has to fund one or the other.",
+    "eps": [
+     97,
+     34,
+     53,
+     93,
+     86
+    ]
+   },
+   {
+    "question": "Should every technically strong professional be expected to build a personal book of business?",
+    "gist": "Jim Ries (Ep 051) and Alex Egan (Ep 101) put an origination expectation on everyone; David Swatosh (Ep 004) and Gale Crosley (Ep 110) say a specialist chasing an external network is wasting measurable time, and the answer decides how a firm coaches and pays its best technicians.",
+    "eps": [
+     51,
+     101,
+     4,
+     110
+    ]
+   },
+   {
+    "question": "Should a firm require producers to log relationships and interactions in a central system so business development can be analyzed?",
+    "gist": "Stephen Madsen (Ep 058) and Timothy Keith (Ep 106) argue the empirical layer is worth forcing; George Sirignano (Ep 098) argues call notes are the producer's own property and that mandates lose the top producers first, which decides whether growth runs on a CRM or on people.",
+    "eps": [
+     58,
+     106,
+     98
+    ]
+   },
+   {
+    "question": "Should business development goals include outcomes like new clients and fees, or only the inputs a professional directly controls?",
+    "gist": "Doug LaLone (Ep 044) builds backward from a retirement number and puts fees on the same scorecard as activity; Mark Bober (Ep 030) and Polly Mack (Ep 032) call results-based measurement short-sighted against a seed-planting cycle, and firms design incentive compensation on the answer.",
+    "eps": [
+     44,
+     30,
+     32
+    ]
+   }
+  ]
+ },
+ "deal-sourcing": {
+  "key": "deal-sourcing",
+  "summary": "Six private equity originators argue the product is not capital but the pass: a fast, credible no with a referral attached is what makes the next deal arrive.",
+  "html": "<p>Capital is commoditized, so the originators here describe their product as something else: getting the people around a deal paid, and making the pass credible. Grant Marcks (Ep 003) defines the job as finding ways to pay intermediaries and service providers, and argues a fast no, with a real reason and a referral to a firm that fits, is what makes your yes believable. Jessica Ginsberg (Ep 013) puts it harder. A sponsor who ignores the banker who sent a deal is being rude and forfeiting the next look. Jeremy Holland (Ep 025) turns a decline into a warm introduction. Ryan Grand (Ep 033) says signing an NDA on a deal your team will obviously reject burns the banker's time and marks you as a tire-kicker.</p><p>The disagreement is about evidence, not manners. Stephen Madsen (Ep 058) is the only guest who audited the funnel: per interaction, city visits produced roughly twice the watch-list leads of calls, five times the management presentations and ten times the letters of intent. George Sirignano (Ep 098) is the counterweight. His broker-dealer's build-it-and-they-will-come bet failed, and he argues a producer's call notes are their own property, so mandating a central system alienates the people whose flow you want.</p><p>Six episodes, all from the buy side, 2020 through 2022. Nobody from the sell side describes how this looks from their seat, so read it as private equity pricing its own manners. On that they are near unanimous: the quality of a rejection is worth more than the volume of deals seen. Grand's version is the most testable, since with roughly 4,500 sponsors in the market, being reliably in the top twenty beats aiming to be first call on everything.</p>",
+  "splits": [
+   {
+    "question": "Should early sourcing meetings happen virtually to protect time, or in person because that is what converts?",
+    "gist": "Stephen Madsen (Ep 058) and George Sirignano (Ep 098) hold that the room is irreplaceable and have funnel data behind it; Adam Klein (Ep 053), Jim Ries (Ep 051) and Emily Ackerman (Ep 059) say a 30-minute call buys what a two-hour coffee does, and a firm's travel budget follows the answer.",
+    "eps": [
+     58,
+     98,
+     53,
+     51,
+     59
+    ]
+   },
+   {
+    "question": "Should a firm require producers to log their relationships and interactions in a central system?",
+    "gist": "Madsen (Ep 058) and Timothy Keith (Ep 106) want the tracking forced so the funnel can be analyzed; Sirignano (Ep 098) says call notes are the producer's own intellectual property and the most tenured people are the first to refuse, which decides whether origination runs on a CRM or on staff who ask.",
+    "eps": [
+     58,
+     106,
+     98
+    ]
+   }
+  ]
+ },
+ "networking": {
+  "key": "networking",
+  "summary": "Across 23 episodes the payoff of a network is job security, market knowledge and hiring rather than deals, and guests split hard on whether to screen who gets your time.",
+  "html": "<p>The return on a network is almost never the thing people build it for. Dillon Zwick (Ep 022) ranks business development last, behind job security, friendship, and the 90 percent of a field's knowledge that never gets written down. Corrie Menary (Ep 057) says most people she meets will never be a deal source; her payoff is market intelligence and an associate hire who was not job-hunting. Ken Marblestone (Ep 060) has never predicted where business would come from, so he never asks for referrals.</p><p>What follows is unresolved. Paul Gray (Ep 056) says find the people with gray hair and skip your own age group, who hold no authority and compete for the same jobs. Mark Bober (Ep 030) declines meetings that waste a finite day. Thom Singer (Ep 076) answers that networks run up, sideways and down, and the junior person you dismissed remembers. Menary calls direct competitors her most effective network. Emily Ackerman (Ep 059) meets anyone; a barbecue franchisee once sent her business.</p><p>The register changes. Gary Lewis (Ep 001) opens in 2020 on disposition: listen first, build for twenty years out. David Swatosh (Ep 004) dissents early, reporting that fifteen years of external events slowed his career and that a specialist's internal network is the revenue engine. By 2021 it turns instrumental: Gray builds a media platform so he arrives with something to give instead of a resume, and Lori Gleeman (Ep 052) curates a referral network by exclusion.</p><p>Nobody defends working the room. Tom Boniface (Ep 002) calls copying the rainmaker's fifty handshakes optimizing your weakness, and Jeremy Holland (Ep 035) leaves conversations that do not click rather than work the crowd. No guest here argues that handshake volume beats fit, which leaves the large-event model most firms still fund without a defender. Satisfied guests count their network in people who would take the call, and all started before there was anything to show.</p>",
+  "splits": [
+   {
+    "question": "Should you screen who gets your networking time, or meet broadly including peers, competitors and people who will never send you business?",
+    "gist": "Paul Gray (Ep 056) and Mark Bober (Ep 030) treat a finite day as the binding constraint and spend it on people with authority; Thom Singer (Ep 076), Corrie Menary (Ep 057) and Emily Ackerman (Ep 059) refuse to prejudge, and it decides whether a junior professional works the room for seniority or talks to whoever is next to them.",
+    "eps": [
+     56,
+     30,
+     76,
+     57,
+     59
+    ]
+   },
+   {
+    "question": "Should early meetings happen virtually to protect your time, or in person because that is what converts?",
+    "gist": "Adam Klein (Ep 053), Jim Ries (Ep 051) and Emily Ackerman (Ep 059) say a 30-minute call buys everything a two-hour coffee does; Stephen Madsen (Ep 058) and George Sirignano (Ep 098) have funnel data and irreplaceable-room arguments against them, and a firm's travel budget follows the answer.",
+    "eps": [
+     53,
+     51,
+     59,
+     58,
+     98
+    ]
+   },
+   {
+    "question": "Should professionals monetize referrals with fees, or keep the exchange reciprocal?",
+    "gist": "Lori Gleeman (Ep 052) runs a referral service the receiving firm pays for and argues it costs the buyer nothing; Thom Singer (Ep 076) calls a five percent fee a trinket next to a return referral, and the two answers make a network either a revenue line or a reciprocity system a price would break.",
+    "eps": [
+     52,
+     76
+    ]
+   }
+  ]
+ },
+ "personal-brand": {
+  "key": "personal-brand",
+  "summary": "Your brand is the perception your audience already holds, not the identity you declare, so the work is auditing that gap and narrowing what you claim.",
+  "html": "<p>You do not own your personal brand. Lydia Michael (Ep 074) separates brand identity, what you say you are, from brand image, what your audience perceives, and argues only the overlap is real; she has professionals survey their network and keep the attributes on both lists. Kyle Lindenboom (Ep 031) runs it as a gap analysis: name the perception you want, audit what you project, list the difference. Awareness, not behavior change, is his point: keep the BMW if you like it, but know what it says.</p><p>Narrowness is the closest thing to consensus. Jim Ries (Ep 051) posts only in the lane his network already credits him with; a non-lawyer writing about international tax law destroys his own standing. Jay Harrington (Ep 088) has never seen a niche too small, and says naming one writes your marketing plan, because every niche has its own ecosystem of associations and conferences. Lindenboom makes it a forced choice: forty attributes assert nothing.</p><p>Why to publish changes across the run. George Khalife in 2020 (Ep 018) argues arbitrage: almost nobody on LinkedIn posts anything, so juniors should document their experience rather than wait for a title. The same guest in 2022 (Ep 075) has moved the return inward. The reps are the product, downloads are outside your control, and the goal should be one you set, like twenty well-made episodes. Jeff Henningsen (Ep 079) spent $100 on equipment. Elana Margulies Snyderman (Ep 107) counts content as thought leadership only when it carries what the reader cannot get elsewhere.</p><p>No guest argues that visibility can cost anything, and none makes the case for staying quiet. The only downside named is Lindenboom's: a brand sets an expectation, so advertising constant availability and going dark at 5:01 on Friday does more damage than never promising it. Before you spend a year telling your network what you are, do Michael's survey and ask what they already think.</p>",
+  "splits": [
+   {
+    "question": "Should a professional position as a deep niche specialist, or as a broad-based advisor who can see across service lines?",
+    "gist": "Jay Harrington (Ep 088), Ed Warren (Ep 092) and Mike Jones (Ep 104) hold that deep niche expertise is the only thing that earns premium pricing and trust; Sheon Karol (Ep 054) counters that a specialist steers you to their one service whether or not it fits, which makes narrowing either your strongest asset or your blind spot.",
+    "eps": [
+     88,
+     92,
+     104,
+     54
+    ]
+   },
+   {
+    "question": "Do visible commitments such as website committees, public statements and certifications do real work, or are they theater that substitutes for action?",
+    "gist": "Lydia Michael (Ep 074) and Rich Grant (Ep 041) argue that claiming a value you have not operationalized does more harm than saying nothing; Joshua Berggrun (Ep 064) argues the visible artifact is the only signal an outsider has before they ever get in the room.",
+    "eps": [
+     74,
+     41,
+     69,
+     64
+    ]
+   }
+  ]
+ },
+ "authenticity": {
+  "key": "authenticity",
+  "summary": "Guests define authenticity as consistency and transparency rather than self-expression, then split over whether adapting how you present to a room betrays it or shows respect.",
+  "html": "<p>Twelve episodes treat authenticity as a constraint, not a permission. Jeremy Holland (Ep 035) gives the tightest definition, consistency of behavior and transparency over time, and says it is not license to be profane or ill-behaved. Jamil Sanders (Ep 039) lands near the same line: neither full code-switching nor unedited self-expression, but a negotiated middle, since being yourself does not cancel what a client expects. Lydia Michael (Ep 074) supplies the test: you do not own your brand, your audience does.</p><p>Three words here look interchangeable and are not. Sanders (Ep 019) reads feeling out of balance as the signal you have drifted from your values, a claim about internal alignment. Holland rejects work-life balance for work-life fusion, meaning the boundary stops mattering once deal contacts become real friends: a claim about relationships, not hours. Tom Boniface (Ep 002) and Gary Lewis (Ep 001) argue for integration, one list of variables to manage, not two domains in equilibrium. Read as one position, all three collapse.</p><p>Insecurity, not nerve, is what blocks people. Holland spent years wondering whether a state school degree and no MBA meant he did not belong; self-made entrepreneurs turned out to prefer exactly that. Lisa Howze (Ep 099) opens with two evictions before age nine and two failed CPA sittings, and says imposter syndrome yields to claiming a concrete expertise, not to affirmation. Stephanie Gaffin (Ep 037) drops the fixed self: not a version etched in stone, a repeated choice.</p><p>By 2022 the theme has teeth. Charmone Adams argues in Ep 050 that you cannot practice inclusion at work while your own social life stays homogeneous, then in Ep 065 defends code switching, born as survival for Black Americans and now, he says, a courtesy. That is the collision: it prices the consistency Holland treats as definitional. The question is not whether you are being yourself but which version a room has a claim on.</p>",
+  "splits": [
+   {
+    "question": "Does being authentic mean being the same person in every room, or adapting how you present to the room you are in?",
+    "gist": "Holland (Ep 035) and Ackerman (Ep 059) treat consistency across contexts as the whole definition; Adams (Ep 065) reads a shift in register as respect, and for people of color as a real career skill.",
+    "eps": [
+     35,
+     59,
+     65
+    ]
+   },
+   {
+    "question": "Under real pressure, should a leader project calm they do not feel, or let their people see the strain?",
+    "gist": "Black-Beth (Ep 095) treats composure as what keeps an organization functioning even while she is screaming inside; Vance (Ep 043) and Daly (Ep 016) treat visible imperfection as part of the job description.",
+    "eps": [
+     95,
+     43,
+     16
+    ]
+   },
+   {
+    "question": "Do public commitments to a value, such as committees, statements and certifications, do real work, or substitute for the action they advertise?",
+    "gist": "Berggrun (Ep 064) says the visible artifact is the only signal a candidate has before they ever interview; Grant (Ep 041), Hawkins (Ep 069) and Michael (Ep 074) say a claimed value without action does more harm than silence.",
+    "eps": [
+     64,
+     41,
+     69,
+     74
+    ]
+   }
+  ]
+ },
+ "mental-health": {
+  "key": "mental-health",
+  "summary": "Guests treat burnout as a role to renegotiate rather than a career to escape, and responsibility for it shifts from the individual to the firm across the run.",
+  "html": "<p>Seven episodes on burnout share an unusual position: leaving is rarely the fix. Erik Daly (Ep 016) calls the all-or-nothing view of a legal career a false choice; his own move from Chicago to Grand Rapids is the evidence. It improved his work-life balance and cured nothing. Randy Crabtree (Ep 100) lands in the same place, arguing that mid-career burnout usually calls for telling your supervisor what you actually want and changing service line, not changing firms.</p><p>Both are specific about the signals. Daly developed chronic back pain and fatigue in his late twenties as a deal attorney and wrote them off as part of the job; he now reads them as the first sign of stress and depression. Crabtree calls burnout a form of mental illness while saying he does not know whether that is the true definition. He narrates a stroke in midlife and five following years of depression, PTSD and panic attacks, and says it took three counselors before one fit.</p><p>Daly reports that attorneys overwhelmingly cope alone and that the profession still reads disclosure as weakness. He is careful that his own openness is his choice, not a recommendation; a helpline, he says, may be the right first step for someone else. He and Stephanie Gaffin (Ep 037) converge on scale: ten minutes of exercise, five of breathing, a minute of meditation at night.</p><p>Responsibility moves across the run. In 2020 Gary Lewis (Ep 001) puts burnout on his own reaction and calls blaming clients and portfolio companies his mistake. By 2022 and 2023 it sits with firms: David Hartley (Ep 094) says leaders must watch for overwork because people will not flag it, and Crabtree points to a firm that capped tax season at 45 hours and finished more work at higher profitability. No guest here left the profession and says leaving was right; that absence is the theme's gap.</p>",
+  "splits": [
+   {
+    "question": "When burnout hits mid-career, do you leave the role or renegotiate the one you are in?",
+    "gist": "Crabtree (Ep 100) and Daly (Ep 016) treat a job search as a false exit that cures nothing; Marblestone (Ep 060) says a role that does not fit becomes a health problem and his own mistake was not leaving twenty years sooner.",
+    "eps": [
+     100,
+     16,
+     60
+    ]
+   },
+   {
+    "question": "Outside working hours, should you stay reachable or hard-disconnect from email and notifications?",
+    "gist": "Lewis (Ep 001), Boniface (Ep 002) and Holland (Ep 035) want an integrated life with partial availability; Hill (Ep 026), Cutter (Ep 073) and Crabtree (Ep 100) want notifications off and a shutdown ritual, because the unanswered hours are what produce the thinking.",
+    "eps": [
+     1,
+     2,
+     35,
+     26,
+     73,
+     100
+    ]
+   },
+   {
+    "question": "Under real pressure, should a leader project calm they do not feel, or let their people see the strain?",
+    "gist": "Black-Beth (Ep 095) carries the fear home rather than into the room because hundreds of people need someone composed; Vance (Ep 043) and Daly (Ep 016) argue concealment costs both connection and the judgment everyone is relying on.",
+    "eps": [
+     95,
+     43,
+     16
+    ]
+   }
+  ]
+ },
+ "personal-systems": {
+  "key": "personal-systems",
+  "summary": "Personal systems fail by design, not weak will: routines copied from high performers break, and the constraints that make one work often have to come from the firm.",
+  "html": "<p>Fifteen episodes argue that personal systems fail by design, not by weak will. Maria Moss (Ep 080) states it plainly: goals motivate and accomplish nothing, while consistency, tracking and an accountability structure produce the change. Mike Alberts (Ep 048) takes that logic somewhere less comfortable. The template high achievers copy, wake early and train first, failed him because his mind was already in his inbox, so the workout was hollow and he skipped it the next day. His fix was inverting the sequence: the work he dislikes first, in a timed block, then the gym.</p><p>He turns a missed habit into a diagnostic rather than a verdict: wrong time of day, wrong gym, too many habits at once. Work, he admits, is his standing excuse. Three guests separately distrust instrumentation. A week of logging his day in 30-minute increments cost Alberts 30 minutes a day. Dustin Hill (Ep 026) holds that soft-skill investment resists measurement entirely, so a personal why has to stand in for the metric. Moss prefers check-ins months apart to frequent numbers that only discourage.</p><p>The theme also moves up the org chart. Tom Boniface (Ep 002) and Carrie Schochet (Ep 020) start in 2020 with attitude and controllables, journaling as the only reliable record that your thinking changed. Bob Doyle (Ep 029) and Max Friar (Ep 045) add machinery in 2021: protected quiet time before logging on, automated buyer intake, a one-page plan running six months. By 2022 Dan Montgomery (Ep 093) argues the individual layer cannot be built alone. His firm's 50-hour busy season rests on declining tax-only clients and publishing meeting constraints, not on anyone's discipline.</p><p>Constraint is the shared mechanism: three priorities a day for Montgomery, six productive hours over sixteen moderate ones for Ryan Cutter (Ep 073), every notification off for Hill. No guest claims a working system can be lifted intact from someone else. Take the diagnostic, not the routine.</p>",
+  "splits": [
+   {
+    "question": "Is there a right personal routine to build, or does the standard template need inverting for the person you actually are?",
+    "gist": "Doyle (Ep 029) treats growth as a muscle exercised on a fixed early schedule, hardest on the days you do not feel like it; Alberts (Ep 048) says that sequence is what failed him and had to be rebuilt backwards.",
+    "eps": [
+     29,
+     48
+    ]
+   },
+   {
+    "question": "Outside working hours, should you stay reachable or hard-disconnect from email and notifications?",
+    "gist": "Boniface (Ep 002), Holland (Ep 035) and Lewis (Ep 001) build the week around availability and an integrated life; Hill (Ep 026), Cutter (Ep 073) and Crabtree (Ep 100) build it around protected blocks, no inbox zero and a shutdown ritual.",
+    "eps": [
+     2,
+     35,
+     1,
+     26,
+     73,
+     100
+    ]
+   }
+  ]
+ },
+ "leadership": {
+  "key": "leadership",
+  "summary": "The behaviours that make a professional valuable \u2014 finishing the work, holding the answer \u2014 are the ones these guests say disqualify them from leading.",
+  "html": "<p>Leadership in these episodes is defined by what it is not: doing the work. Howie Siegal (Ep 007) calls finishing a struggling team member's task the textbook accidental diminisher, and offers his turnover as evidence: almost nobody from the years when he did the work himself is still there. Dan Cremons (Ep 089) extends it to diagnosis: when a team underperforms, the first place to look is the manager's mirror. David Hartley (Ep 094) says he is a better leader the less he knows about the problem: the job is extracting contribution, not supplying answers.</p><p>That agreement produces a real argument about when to stop letting people struggle. Ben Vance (Ep 043) makes it stakes-dependent: never the client deliverable, routinely the intermediate work product. Cremons lets a stretched person flail and intervenes only for existential risk. Mark Walztoni (Ep 047) applies it to staffing: your strongest performer goes where the enterprise needs her, even when the loss is yours.</p><p>Across the years the problem relocates. In 2020 it is individual behaviour: Kurt Wilkin (Ep 024) argues optimists fare worst in a long crisis, since faith has to sit alongside the brutal facts. By 2021 the answers are machinery: Tom Bohn (Ep 042) treats a demand for more detail as concealed disagreement with the direction. By 2022 it is firm design: Hartley calls the accounting pyramid obsolete because a day-one hire knows things the partners do not, and Amy Vetter (Ep 111) calls the impossibility of a 40-hour week an inherited belief, defended hardest by partners who suffered through it.</p><p>One thing goes unexamined: nobody questions coaching. Siegal would bet almost every leader has one, Lenny Dacanay (Ep 012) calls his life-changing, and Doug LaLone (Ep 044) treats a coach as a business partner, not an accessory. Nineteen episodes, and nobody asks whether it earns its cost. Watch what the sharpest guests do first: they point the diagnostic at themselves.</p>",
+  "splits": [
+   {
+    "question": "Under real pressure, should a leader project calm they do not feel, or let their people see the strain?",
+    "gist": "Susan Black-Beth (Ep 095) brings calm while screaming inside because hundreds of people are counting on her; Ben Vance (Ep 043) and Erik Daly (Ep 016) hold that visible imperfection is the job and that concealment costs both connection and judgment.",
+    "eps": [
+     95,
+     43,
+     16
+    ]
+   },
+   {
+    "question": "Should every technically strong professional be expected to build a personal book of business?",
+    "gist": "Jim Ries (Ep 051) and Alex Egan (Ep 101) say origination expectations belong on everyone; David Swatosh (Ep 004) and Gale Crosley (Ep 110) say that is a measurable waste for a specialist whose work arrives internally, and it changes how a firm coaches and pays its best technicians.",
+    "eps": [
+     51,
+     101,
+     4,
+     110
+    ]
+   }
+  ]
+ },
+ "talent": {
+  "key": "talent",
+  "summary": "The talent shortage is a design failure: the corpus blames the pyramid, the owner and the client list, and almost never the generation showing up.",
+  "html": "<p>The talent conversation here is not about recruiting. Gary Shamis (Ep 087) argues the hundred-year pyramid has stopped working, so a managing partner's job is conducting capacity across hiring, process, technology, client culling and outsourcing. David Hartley (Ep 094) says a structure that concentrates knowledge at the top is obsolete when the day-one hire is the digital native. Chase Birky (Ep 102) traces sub-three-year tenure to pay that stayed too low and jobs that stayed unpleasant, and doubts the 150-hour rule explains it.</p><p>This is the largest theme in the archive, and it peaks in 2022 with fifteen of its thirty-two episodes. That is where the frame moves. Earlier, the conversation is individual: Howie Siegal (Ep 007) works out that finishing his team's work is what drove them out. In 2022 the diagnosis turns structural. Paul Aversano (Ep 086) says people are the product, so results delivered on top of churn are not a win. Dan Cremons (Ep 089) treats underperformance as a management failure before a personnel one. Dan Montgomery (Ep 093) makes the client list the retention lever, capping busy season at fifty hours by refusing tax-only work. By 2023 Amy Vetter (Ep 111) names the hardest obstacle as prosperity: nobody changes a model while the money is good.</p><p>A parallel run of episodes argues the talent exists and the screen is what fails. Ernie Lyles (Ep 061) points out his best and worst analyst came from the same school. Michelle Chao (Ep 063) notes that nobody self-selects into a job they have never heard of. Charmone Adams (Ep 065) says target-school recruiting keeps producing what it always produced. Brandon Hawkins (Ep 069) screens for coachability and scrappiness after being burned by perfect resumes.</p><p>Nobody in the run defends the apprenticeship pyramid, and nobody blames the generation arriving. Its harshest critics are the people who came up through it. Read that as consensus, not as an argument won.</p>",
+  "splits": [
+   {
+    "question": "Is the shortage of diverse professionals in middle-market finance a pipeline and awareness problem, or a problem with the hiring decisions leaders are making now?",
+    "gist": "Rich Grant (Ep 041) and Joshua Berggrun (Ep 064) put the constraint upstream, with candidates who never learn these careers exist; Brandon Hawkins (Ep 069), Michelle Chao (Ep 063) and Ernie Lyles (Ep 061) put it on executives who already hold the power to hire.",
+    "eps": [
+     41,
+     64,
+     69,
+     63,
+     61
+    ]
+   },
+   {
+    "question": "Does being demonstrably excellent at the craft eventually carry an underrepresented professional through, or does someone senior have to hand them the shot first?",
+    "gist": "Christine Nowaczyk (Ep 041) says craft is the foundation and there is no way around it; Rich Grant (Ep 010), Lyles (Ep 061) and Chao (Ep 063) say capability alone does not produce the same results and someone has to bet before the proof exists.",
+    "eps": [
+     41,
+     10,
+     61,
+     63
+    ]
+   },
+   {
+    "question": "Should a firm turn away work that does not fit its economics, or service everything that comes through a trusted referral source?",
+    "gist": "Ken Marblestone (Ep 060) treats a referral as an obligation regardless of margin; Dan Montgomery (Ep 093) refuses whole client categories so nobody works past fifty hours in busy season, with John Bly (Ep 083) and Ed Kless (Ep 084) pruning on the same logic.",
+    "eps": [
+     60,
+     93,
+     83,
+     84
+    ]
+   },
+   {
+    "question": "Should a professional firm replace the partnership model with a corporate structure, or design around how partners actually behave?",
+    "gist": "Gale Crosley (Ep 110) says the partnership produces no accountability and no leadership development; Timothy Keith (Ep 106) and Chase Birky (Ep 102) say aligned economics beat imposed structure and the autonomous practitioner should not be re-engineered.",
+    "eps": [
+     110,
+     106,
+     102
+    ]
+   }
+  ]
+ },
+ "diversity-access": {
+  "key": "diversity-access",
+  "summary": "Guests agree access, not supply, is the constraint on who enters middle-market finance, and split hard over whether the case for diversity is moral or economic.",
+  "html": "<p>The corpus does not argue about whether diversity is worth pursuing; it argues about what the argument <em>is</em>. Leon Brujis (Ep 070) rejects the moral case outright: diversity is not the right thing to do, it is the cognitive diversity that blocks groupthink and produces alpha, and moral framing is what makes it box-ticking. Joshua Berggrun (Ep 064), answering the same opening question, says it is fundamentally the right thing to do, with better client service secondary.</p><p>Underneath sits a diagnosis most guests share: the constraint is access, not supply. Rich Grant and Christine Nowaczyk (Ep 041) say underrepresented candidates are not hitting a ceiling; they do not know the room exists. Michelle Chao (Ep 063) went from an EA seat she was told had no growth path to SVP of business development at the same firm, on exposure plus a boss who opened the door. Ernie Lyles (Ep 061) attacks the pedigree filter with his own record: his best and worst analyst both came from Yale.</p><p>The framing shifts. In 2020 and 2021 the work is relational and internal: Jamil Sanders (Eps 039 and 040) begins with the self-discounting a Black advisor does before the meeting. The 2022 episodes turn institutional. Brandon Hawkins (Ep 069) says associations of executives with hiring power spend it curating heritage-month calendars, while Eric Gregg (Ep 081) reports about 80 percent of accounting marketers now field client diversity questions in RFPs.</p><p>Nobody argues the bar should move. Brujis would refuse a job offered because of how he looks, Grant calls token hires the worst available outcome, and Lyles and Hawkins describe the work as searching harder, not screening lower. Nobody argues against the premise either \u2014 a gap worth naming. The line to carry out belongs to Charmone Adams (Ep 050): firms achieve the diversity half and fail the inclusion half, and a room where the same subset still decides has changed nothing.</p>",
+  "splits": [
+   {
+    "question": "Is the case for diversity in a middle-market firm fundamentally moral, or economic and arguable in investment terms?",
+    "gist": "Brujis (Ep 070) and Lyles (Ep 061) argue diversity is alpha and that the moral framing produces box-ticking; Berggrun (Ep 064) opens with the moral case and treats the business return as a bonus, which decides what a leader does when the numbers are unclear.",
+    "eps": [
+     70,
+     61,
+     64
+    ]
+   },
+   {
+    "question": "Is the shortage of diverse professionals a pipeline and awareness problem, or a problem with the hiring decisions being made right now?",
+    "gist": "Grant (Ep 041) and Berggrun (Ep 064) put the constraint upstream in schools and awareness; Hawkins (Ep 069), Chao (Ep 063) and Lyles (Ep 061) say executives already hold the power and are not using it, and the two answers send a firm's budget to opposite places.",
+    "eps": [
+     41,
+     64,
+     69,
+     63,
+     61
+    ]
+   },
+   {
+    "question": "Should a firm set aspirational diversity targets and move boldly, or accept slow incremental progress with no deadline?",
+    "gist": "Brujis (Ep 070) calls incrementalism the failure and wants targets a firm expects to miss; Chao (Ep 063) and Sanders (Ep 040) say progress cannot be hypercharged and that expecting speed is what makes firms quit.",
+    "eps": [
+     70,
+     63,
+     40
+    ]
+   },
+   {
+    "question": "Do visible diversity artifacts \u2014 website committees, statements, certifications \u2014 do real work, or substitute for hiring?",
+    "gist": "Berggrun (Ep 064) says the committee listed on a website is the only signal a closeted student has before interviewing; Grant (Ep 041), Hawkins (Ep 069) and Lydia Michael (Ep 074) say a stated commitment without hires does more harm than none.",
+    "eps": [
+     64,
+     41,
+     69,
+     74
+    ]
+   }
+  ]
+ },
+ "firm-strategy": {
+  "key": "firm-strategy",
+  "summary": "The hundred-year leverage model is broken by common consent; the corpus splits hard on whether the fix is consolidation and corporate structure or specialization and independence.",
+  "html": "<p>The strategy episodes share a diagnosis and then fight over everything downstream of it. Gary Shamis (Ep 087) states it plainly: the hundred-year accounting model of hiring young people, stacking a pyramid and profiting off leverage no longer works, because the human capital it assumes is not available. Capacity, not demand, is the binding constraint. Gale Crosley (Ep 110) reaches the same place from the market side, arguing that a century of favorable conditions made specialization optional and that period has ended.</p><p>On the remedy, Crosley stands alone in the corpus. She would replace the knights-of-the-roundtable partnership with a corporate structure that has reporting lines and accountability, and says every firm will compete against private-equity-backed capability whether or not it takes the money. Five guests answer her from different directions. Shamis calls the merger wave herd behavior and points at the middle market the Big Four abandoned. Chase Birky (Ep 102) says aligned economics make the control apparatus unnecessary. Timothy Keith (Ep 106) says the individual-book practitioner is the nature of the business. Ed Warren (Ep 092) would shed the audit franchise Crosley wants to expand. Denise Logan (Ep 103) asks who the growth is for.</p><p>The specialization argument produces the sharpest exchange, and both sides reach for the same operating room. Warren says generalists can only charge generalist prices, and compares choosing a cardiac surgeon over a general one. Sheon Karol (Ep 054) says you see a GP before a surgeon precisely because the surgeon cuts, so the specialist's expertise is itself the bias. Watch the frame move, too. Emily Ackerman (Ep 059) held in 2021 that since same-size firms sell identical work, the differentiator is being personally memorable. By 2023 Mike Jones (Ep 104) treats individual relationships as too fragile to build a firm on.</p><p>Take the diagnosis as settled and the prescription as open. What nobody here argues is that the current model is fine.</p>",
+  "splits": [
+   {
+    "question": "Does a mid-sized firm have to consolidate or take outside capital to stay competitive, or is independence in the middle market the better position?",
+    "gist": "Gale Crosley (Ep 110) says untransformed firms become the buggy whip because they will be competing against private-equity-backed capability regardless; Gary Shamis (Ep 087) and Chase Birky (Ep 102) call the merger wave herd behavior and point to the middle market the Big Four left behind.",
+    "eps": [
+     110,
+     87,
+     102
+    ]
+   },
+   {
+    "question": "Should a professional firm replace the partnership model with a corporate structure, or design around how partners actually behave?",
+    "gist": "Crosley (Ep 110) wants bosses, accountability and faster decisions, which is what private equity imports; Timothy Keith (Ep 106) and Birky (Ep 102) say the autonomous practitioner is the nature of the business and aligned economics remove the need for top-down control.",
+    "eps": [
+     110,
+     106,
+     102
+    ]
+   },
+   {
+    "question": "Should a business owner hire a deep niche specialist, or a broad-based advisor who can see across service lines?",
+    "gist": "Ed Warren (Ep 092), Jay Harrington (Ep 088) and Mike Jones (Ep 104) treat narrow expertise as the only source of pricing power and differentiation; Sheon Karol (Ep 054) argues the specialist steers every client toward the one thing they sell.",
+    "eps": [
+     54,
+     92,
+     88,
+     104
+    ]
+   },
+   {
+    "question": "Is compliance and audit work a commodity to shed, or a franchise worth investing in?",
+    "gist": "Warren (Ep 092) and Birky (Ep 102) would trade audit relationships for advisory revenue several times larger and read today's compliance margins as a temporary distortion; Crosley (Ep 110) expects attestation to expand into ESG and non-financial work.",
+    "eps": [
+     92,
+     102,
+     110
+    ]
+   }
+  ]
+ },
+ "pricing": {
+  "key": "pricing",
+  "summary": "The corpus treats the billable hour as a category error and prices instead on specialization, recurring revenue and brand, with no one on the show arguing back.",
+  "html": "<p>Ed Kless (Ep 084) makes the theme's argument and takes it further than anyone else on the show. Professional firms are miscategorized as service firms, because knowledge travels with the person rather than waiting at a location. If what you sell is access to knowledge, the hour is the wrong instrument: the customer does not care whether the answer took ten minutes or ten days. His replacement is subscription: month to month with thirty days' notice, priced across a portfolio like insurance rather than negotiated one at a time, at three to four times the pricing power on about half as many customers.</p><p>Nobody argues back. Worth stating plainly, because it is a gap rather than a verdict. The billable hour still runs most of these firms and no guest in ninety-nine episodes defends it, so the case is routed around instead of contested. Doug LaLone (Ep 044) attacks hours as a measure of a person rather than as a price: law firms track billable hours, dollars in the door and realization, and none of it tells anyone what is working. Ed Warren (Ep 092) rebuilds the economics elsewhere, on recurring revenue that is effectively fixed, so growth comes from process rather than stacking staff at lower bill rates.</p><p>The rest of the theme argues that price follows position. Warren: generalists can only charge generalist prices. Mike Jones (Ep 104): calling yourself full service is a cop-out that leaves you competing on price. Alyson Fieldman (Ep 112): technical quality is table stakes, since the firm down the street is good too. Chase Birky (Ep 102) supplies the warning. Practitioners arrive underpricing and need to charge double what feels comfortable, and the compliance margins the talent shortage created are a supply distortion rather than pricing power a firm earned.</p><p>So the pricing conversation here is really a positioning conversation. If you want the case for the hour, build it yourself.</p>",
+  "splits": [
+   {
+    "question": "Should a business owner hire a deep niche specialist, or a broad-based advisor who can see across service lines?",
+    "gist": "Ed Warren (Ep 092) holds that generalists can only charge generalist prices and Mike Jones (Ep 104) that full-service positioning forces price competition, with Jay Harrington (Ep 088) alongside them; Sheon Karol (Ep 054) counters that the specialist steers every client toward the one thing they sell.",
+    "eps": [
+     54,
+     92,
+     88,
+     104
+    ]
+   },
+   {
+    "question": "Is compliance and audit work a commodity to shed, or a franchise worth investing in?",
+    "gist": "Warren (Ep 092) and Chase Birky (Ep 102) would convert audit relationships into accounting work worth five to ten times the revenue and treat current compliance pricing as temporary; Gale Crosley (Ep 110) says attestation is about to expand rather than compress.",
+    "eps": [
+     92,
+     102,
+     110
+    ]
+   },
+   {
+    "question": "Should a firm turn away work that does not fit its economics, or service everything that comes through a trusted referral source?",
+    "gist": "Ken Marblestone (Ep 060) never refuses a referral because declining ends the relationship that produced it; Dan Montgomery (Ep 093), John Bly (Ep 083) and Ed Kless (Ep 084) prune deliberately, on the grounds that unprofitable work is paid for in staff, margin and strategy.",
+    "eps": [
+     60,
+     93,
+     83,
+     84
+    ]
+   }
+  ]
+ },
+ "ma-and-exits": {
+  "key": "ma-and-exits",
+  "summary": "Deals in this corpus turn on fit, expectations and the seller's emotional state rather than on price, and advisor capacity decides whether they close.",
+  "html": "<p>The dealmakers here agree on something their industry does not: price is rarely what decides a transaction. John Bly (Ep 083) says the binding constraint on a CPA firm acquisition is fit and expectations, that six or seven of your ten desired terms is a good outcome, and that conceding the last ten thousand dollars is what makes an exiting partner refer the next one. Max Friar (Ep 045) finds that for family businesses between one and fifteen million, cultural fit and legacy continuity routinely outrank price and structure. Gary Lewis (Ep 001) framed it that way back in 2020, treating the people across the table as a twenty-year network rather than a counterparty.</p><p>The stronger claim is that the emotional content of a sale is a deal risk rather than a soft topic. Jennifer Fondrevay (Ep 082) describes acquired employees grieving a future that will not happen, reports that the disappointing deals her interviewees named failed on humility rather than economics, and warns that red flags found in diligence do not get fixed after closing. Denise Logan (Ep 103) rejects the industry's own maxim outright. Time does not kill deals, unprocessed emotion does, and whoever says otherwise is the most frightened person in the room. Roughly thirty percent of companies that come to market transition, and she argues advisors respond by taking on more deals and attending to each one less, manufacturing the failures that justified the volume.</p><p>That is where the theme's real disagreement sits, and it is about capacity rather than emotion. Friar automates NDAs and buyer intake so one advisor can carry four or five sell-side projects and still absorb a seller's separation anxiety. Logan says carry fewer, and go slower. If you advise owners through exits, the question this corpus puts to you is not how to price the business. It is whether your practice is built to sit with the person selling it.</p>",
+  "splits": []
+ },
+ "career-transitions": {
+  "key": "career-transitions",
+  "summary": "Six guests price career risk on both sides of the ledger: staying in a role that does not fit costs something real, and leaving buys autonomy rather than income.",
+  "html": "<p>Six episodes touch this theme, and they converge on an unusual reading of risk: it sits on both sides of the ledger. Ken Marblestone (Ep 060) left a large corporation after concluding the role no longer fit him and was becoming a health problem, and argues poor fit is not a private cost \u2014 you are degrading the experience of everyone you work with. John Bly (Ep 083) takes apart the destination rather than the exit, saying Big 4 partnership looks like the pinnacle from outside while those partners are functionally employees with a K-1.</p><p>What the leap buys is where these guests are most specific and least romantic. Isatou Smith (Ep 096) did not surpass her prior corporate income until year four and was still seriously considering going back in year three; her position is that the return is autonomy, and that anyone driven by earnings should stay. Marblestone says twice it is not for everybody. Brett Hickey (Ep 078) drew no salary for 11 years and judges a career decision on the slope of the ten-year curve rather than the starting point.</p><p>Two guests independently name the same failure mode. Smith says watching peers buy cars and houses while you are still building is the main reason people quit the path; Lisa Howze (Ep 099) says the only real competition is the person in the mirror. Nobody here sells the leap. The instruction that survives all six episodes is to price what staying costs you, then be honest about whether autonomy \u2014 not income, not balance \u2014 is what you actually want.</p>",
+  "splits": [
+   {
+    "question": "When a job no longer fits, should you leave, or redefine the role you are already in?",
+    "gist": "Randy Crabtree (Ep 100) and Erik Daly (Ep 016) say the search is a false exit and the real move is renegotiating your niche with your supervisor; Ken Marblestone (Ep 060) says staying is itself the risk and names not leaving twenty years sooner as his mistake.",
+    "eps": [
+     100,
+     16,
+     60
+    ]
+   }
+  ]
+ },
+ "growth-mindset": {
+  "key": "growth-mindset",
+  "summary": "Sixteen episodes agree that failure is tuition and self-funded development is mandatory; the disagreements that exist are about who pays and whether curiosity should be bounded.",
+  "html": "<p>Sixteen episodes make one argument with almost no friction: work is a classroom, and the professional who stops paying tuition falls behind by standing still. Elliott Holland puts it hardest across Ep 027 and Ep 071. Every engagement should return money or a lesson, the top performer in a quarterly sales review is usually the person who failed at twice the volume, and expecting an employer to fund development is naive, since none gains from raising your market value.</p><p>The near-unanimity is itself the finding. No guest argues that technical mastery alone carries a career. None argues for avoiding failure rather than metabolizing it. None makes the case for depth over breadth; when Dan Lee (Ep 038) says being good at several things beats being great at one, nobody answers. Three documented tensions touch this theme; only one is.</p><p>The genuine disagreements are internal and undocumented. Kurt Wilkin (Ep 024) holds that optimists fare worst in a prolonged crisis, citing Stockdale via Jim Collins and the CEOs who sprinted expecting a twelve-week pandemic and hit a wall in June. That cuts against Carrie Schochet (Ep 020), for whom positivity is a choice made daily. Gary Thomson (Ep 091) is the only guest who bounds growth: curiosity is fatiguing, firms chasing every idea produce what he calls initiative fatigue, and accountability is what frees people to explore. He admits that reversed his own assumption.</p><p>The framing moves too. Through 2020 and 2021 growth is character: resilience, a personal why, gratitude for the thorns. By 2022 it is an operating problem. Dan Cremons (Ep 089) treats underperformance as the manager's failure and recrafts roles around what energizes the person; Maria Moss (Ep 080) automates development into the calendar. Holland alone limits the obligation, granting that someone still solving for rent is legitimately in execution mode. That exemption, from the theme's most demanding voice, is the honest edge of an unopposed idea.</p>",
+  "splits": [
+   {
+    "question": "Is there a right personal routine for growth, or does the standard template need inverting for the person you actually are?",
+    "gist": "Doyle (Ep 029) treats growth as a muscle exercised on a protected early schedule, especially on the days you do not want to; Alberts (Ep 048) says the prescribed sequence is exactly what fails and has to be rebuilt around the individual.",
+    "eps": [
+     29,
+     48
+    ]
+   }
+  ]
+ },
+ "client-experience": {
+  "key": "client-experience",
+  "summary": "Technical quality is table stakes in these episodes; clients buy consistency between promise and delivery, and firms are systematically wrong about how they are experienced.",
+  "html": "<p>Every guest in this theme starts from the same premise: the technical work is table stakes. Alyson Fieldman (Ep 112) states it flatly \u2014 the firm down the street also does good work, so what is left is niche specialisation or a deliberate client experience program. Adam Klein (Ep 053) arrives from the buyer's side: five quality-of-earnings providers produce five different numbers, so the decision reduces to trust. Eric Gregg (Ep 081) has the market version: buyers are roughly 80 percent of the way to a decision before they ever speak to the firm.</p><p>The mechanism they name is consistency between promise and delivery, not excellence. Robert Meyers (Ep 034) puts numbers on it: promise 24 hours and deliver in 72 and you have withdrawn trust, promise 96 and deliver in 72 and you look great. Kyle Lindenboom (Ep 031) says the same about availability: building an always-available reputation and then going dark at 5:01 does more damage than being consistently unreachable. The recovered failure recurs as an asset \u2014 Fieldman says it can leave a relationship stronger than one where nothing went wrong, and Meyers prefers references from clients who were once unhappy.</p><p>The later episodes make the harder claim: a firm cannot see its own client experience. Fieldman puts roughly one in seven clients on an unvoiced complaint and insists the feedback interviewer be someone off the account. Gregg names lack of proactivity as the most consistent complaint and blames the incentive structure, not the individual: utilization KPIs give no credit for unbilled outreach.</p><p>Nobody argues the opposite case, that superior technical work wins on its own, worth noticing given how many of these guests sell relationship-side capability. Paul Aversano (Ep 086) leaves the test that survives all of it: you do not have a relationship with a client until they value it too, and the check is whether they would take your call for a personal reason.</p>",
+  "splits": [
+   {
+    "question": "Whose asset is the client relationship \u2014 the individual producer's or the firm's?",
+    "gist": "George Sirignano (Ep 098) treats a producer's relationship knowledge as their intellectual property and says mandates alienate the best of them; Alyson Fieldman (Ep 112) calls partner possessiveness a cultural obstacle, and the answer decides whether a firm can run its own client feedback program.",
+    "eps": [
+     98,
+     112
+    ]
+   },
+   {
+    "question": "Should a business owner hire a deep niche specialist, or a broad-based advisor who can see across service lines?",
+    "gist": "Sheon Karol (Ep 054) argues the specialist's expertise is itself the bias and clients in dislocation need range; Ed Warren (Ep 092), Jay Harrington (Ep 088) and Mike Jones (Ep 104) hold that deep niche expertise is the only thing that earns premium pricing and trust.",
+    "eps": [
+     54,
+     92,
+     88,
+     104
+    ]
+   },
+   {
+    "question": "Is business development in professional services actually sales, or does calling it sales break it?",
+    "gist": "Gary Braun (Ep 097) and Robert Meyers (Ep 034) want a documented process with defined steps and conversion ratios; Adam Klein (Ep 053), Dan Montgomery (Ep 093) and Paul Aversano (Ep 086) say sophisticated clients see through anyone who thinks of themselves as a salesperson.",
+    "eps": [
+     97,
+     34,
+     53,
+     93,
+     86
+    ]
+   }
+  ]
+ }
+}

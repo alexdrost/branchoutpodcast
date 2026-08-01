@@ -1,0 +1,40 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import EpisodeCard from '../../components/EpisodeCard.astro';
+import { THEMES } from '../../lib/site.mjs';
+
+const eps = (await getCollection('episodes')).sort(
+  (a, b) => b.data.episode - a.data.episode
+);
+const years = [...new Set(eps.map((e) => e.data.publishDate.getUTCFullYear()))].sort((a, b) => b - a);
+---
+
+<Base title="All episodes" description={`All ${eps.length} episodes of Branch Out, 2020–2023.`}>
+  <div class="hero">
+    <p class="eyebrow">The archive</p>
+    <h1>All {eps.length} episodes</h1>
+    <p class="lede prose-narrow">
+      Conversations recorded between June 2020 and September 2023 with professionals across
+      accounting, law, private equity, wealth management and consulting.
+    </p>
+  </div>
+
+  <div style="display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:2rem">
+    <span class="card-meta" style="width:100%;margin-bottom:.3rem">Browse by theme</span>
+    {THEMES.map((t) => (
+      <a class="tag" href={`/themes/${t.key}/`}>{t.name} <span style="opacity:.6">{t.episodes.length}</span></a>
+    ))}
+  </div>
+
+  {years.map((y) => (
+    <section style="margin-bottom:3.5rem">
+      <h2 id={`y${y}`} style="border-top:1px solid var(--rule);padding-top:1.2rem">{y}</h2>
+      <div class="grid">
+        {eps.filter((e) => e.data.publishDate.getUTCFullYear() === y).map((ep) => (
+          <EpisodeCard ep={ep} />
+        ))}
+      </div>
+    </section>
+  ))}
+</Base>

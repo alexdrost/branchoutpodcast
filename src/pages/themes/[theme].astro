@@ -1,0 +1,78 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import EpisodeCard from '../../components/EpisodeCard.astro';
+import { THEMES, pad } from '../../lib/site.mjs';
+import synth from '../../data/theme-synthesis.json';
+
+export async function getStaticPaths() {
+  const all = await getCollection('episodes');
+  const byNum = Object.fromEntries(all.map((e) => [e.data.episode, e.data.slug]));
+  return THEMES.map((t) => ({
+    params: { theme: t.key },
+    props: {
+      theme: t,
+      byNum,
+      eps: all
+        .filter((e) => e.data.themes.includes(t.key))
+        .sort((a, b) => a.data.episode - b.data.episode),
+    },
+  }));
+}
+
+const { theme, eps, byNum } = Astro.props;
+const s = synth[theme.key] || null;
+const years = eps.map((e) => e.data.publishDate.getUTCFullYear());
+const span = years.length ? `${Math.min(...years)}–${Math.max(...years)}` : '';
+---
+
+<Base title={theme.name} description={s?.summary || theme.description}>
+  <div class="hero">
+    <p class="eyebrow">Theme · {eps.length} episodes · {span}</p>
+    <h1>{theme.name}</h1>
+    <p class="lede prose-narrow">{theme.description}</p>
+  </div>
+
+  {s && (
+    <article class="ep-body prose-narrow" style="margin-bottom:3rem" data-pagefind-body>
+      <section class="sec">
+        <h2 id="what-the-archive-argues">What the archive argues</h2>
+        <div set:html={s.html} />
+      </section>
+
+      {s.splits && s.splits.length > 0 && (
+        <section class="sec">
+          <h2 id="where-it-splits">Where it splits</h2>
+          <ul class="related-list">
+            {s.splits.map((sp) => (
+              <li>
+                <span class="badge badge-tension">Tension</span>
+                <p style="margin:.55rem 0 .4rem;font-weight:600;color:var(--brand-ink)">{sp.question}</p>
+                <p class="r-reason">{sp.gist}</p>
+                <p class="r-reason" style="margin-top:.5rem">
+                  {sp.eps.map((n, i) => (
+                    <>
+                      {i > 0 && ' · '}
+                      {byNum[n]
+                        ? <a href={`/episodes/${byNum[n]}/`}>Ep {pad(n)}</a>
+                        : <span>Ep {pad(n)}</span>}
+                    </>
+                  ))}
+                </p>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
+    </article>
+  )}
+
+  <h2 style="border-top:1px solid var(--rule);padding-top:1.2rem">
+    Episodes in this theme
+  </h2>
+  <div class="grid">
+    {eps.map((ep) => <EpisodeCard ep={ep} />)}
+  </div>
+
+  <p style="margin-top:2.5rem" class="card-meta"><a href="/themes/">← All themes</a></p>
+</Base>

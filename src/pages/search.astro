@@ -1,0 +1,22 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base title="Search" description="Search every episode of Branch Out, including full transcripts.">
+  <div class="hero">
+    <p class="eyebrow">Search</p>
+    <h1>Search the archive</h1>
+    <p class="lede prose-narrow">Searches show notes <em>and</em> the full text of every transcript.</p>
+  </div>
+  <link href="/pagefind/pagefind-ui.css" rel="stylesheet" />
+  <div id="search" style="margin-bottom:4rem"></div>
+  <script src="/pagefind/pagefind-ui.js" is:inline></script>
+  <script is:inline>
+    window.addEventListener('DOMContentLoaded', () => {
+      if (window.PagefindUI) new PagefindUI({ element: '#search', showSubResults: true, pageSize: 12 });
+    });
+  </script>
+  <style is:inline>
+    :root { --pagefind-ui-primary:#12303f; --pagefind-ui-text:#14181b; --pagefind-ui-background:#fff;
+      --pagefind-ui-border:#e3ded4; --pagefind-ui-border-radius:8px; --pagefind-ui-font:inherit; }
+  </style>
+</Base>

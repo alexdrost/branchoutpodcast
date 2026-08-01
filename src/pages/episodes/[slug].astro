@@ -1,0 +1,95 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Player from '../../components/Player.astro';
+import { pad, coverFor, fmtDate, THEME_BY_KEY, guestSlug } from '../../lib/site.mjs';
+
+export async function getStaticPaths() {
+  const eps = await getCollection('episodes');
+  const byNum = new Map(eps.map((e) => [e.data.episode, e]));
+  return eps.map((ep) => ({
+    params: { slug: ep.data.slug },
+    props: { ep, byNum },
+  }));
+}
+
+const { ep, byNum } = Astro.props;
+const d = ep.data;
+const { Content } = await render(ep);
+const cover = coverFor(d.episode);
+const guestNames = d.guests.map((g) => g.name).join(', ');
+
+const jsonld = {
+  '@context': 'https://schema.org',
+  '@type': 'PodcastEpisode',
+  url: `https://branchoutpodcast.com/episodes/${d.slug}/`,
+  name: d.title,
+  episodeNumber: d.episode,
+  datePublished: d.publishDate.toISOString().slice(0, 10),
+  description: d.hook,
+  ...(cover ? { image: cover } : {}),
+  partOfSeries: {
+    '@type': 'PodcastSeries',
+    name: 'Branch Out',
+    url: 'https://branchoutpodcast.com/',
+  },
+  associatedMedia: {
+    '@type': 'MediaObject',
+    contentUrl: `https://www.buzzsprout.com/1038232/${d.buzzsproutId}`,
+  },
+  actor: d.guests.map((g) => ({
+    '@type': 'Person',
+    name: g.name,
+    ...(g.firm ? { worksFor: { '@type': 'Organization', name: g.firm } } : {}),
+    ...(g.linkedin ? { sameAs: g.linkedin } : {}),
+  })),
+};
+---
+
+<Base
+  title={d.title}
+  description={d.hook}
+  canonical={d.legacyUrl}
+  ogImage={cover}
+>
+  <script type="application/ld+json" slot="head" set:html={JSON.stringify(jsonld)} />
+
+  <div class="ep-head">
+    <div class="ep-art">
+      {cover ? (
+        <img src={cover} alt={`Cover art for ${d.title}`} width="480" height="480" />
+      ) : (
+        <div class="card-fallback"><span class="n">{pad(d.episode)}</span></div>
+      )}
+    </div>
+    <div>
+      <p class="eyebrow">Episode {pad(d.episode)} · {fmtDate(d.publishDate)}</p>
+      <h1>{d.title}</h1>
+      <p class="lede">{d.hook}</p>
+      <p class="card-meta">
+        with {d.guests.map((g, i) => (
+          <>
+            {i > 0 && ', '}
+            <a href={`/guests/${guestSlug(g.name)}/`}>{g.name}</a>
+          </>
+        ))}
+      </p>
+      <Player buzzsproutId={d.buzzsproutId} title={d.title} />
+      <p style="margin-top:1rem">
+        {d.themes.map((k) => (
+          <a class="tag" href={`/themes/${k}/`} style="margin:0 .3rem .4rem 0">
+            {THEME_BY_KEY[k]?.name ?? k}
+          </a>
+        ))}
+      </p>
+    </div>
+  </div>
+
+  <article class="ep-body" data-pagefind-body>
+    <Content />
+  </article>
+
+  <p style="margin-top:2rem" class="card-meta">
+    <a href="/episodes/">← All episodes</a>
+  </p>
+</Base>
