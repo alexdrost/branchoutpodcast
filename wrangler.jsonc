@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "branchoutpodcast",
+  "compatibility_date": "2026-08-01",
+  // Static-assets-only Worker. Deliberately NO "main" and NO Astro adapter:
+  // this site is fully prerendered, so it needs no SSR runtime. Providing this
+  // file also stops `wrangler deploy` from auto-running `astro add cloudflare`,
+  // which rewrites astro.config.mjs into SSR mode and then fails.
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "404-page"
+  },
+  "observability": { "enabled": true }
+}
